@@ -339,7 +339,8 @@ public class Mage : PT_MonoBehaviour {
 				airGO = Instantiate (airGroundSpellPrefab) as GameObject;
 				airGO.transform.parent = spellAnchor;
 				airGO.transform.position = this.transform.position-new Vector3(0,0,1);
-				airGO.GetComponent<Rigidbody>().velocity = ((pt-pos).normalized*5);
+				//change the spell's velocity
+				airGO.GetComponent<Rigidbody>().velocity = ((pt-pos).normalized*10);
 			}
 			break;
 

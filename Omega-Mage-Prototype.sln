@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1D07F0DA-2368-0196-3C96-004D4A2FCAF7}") = "Omega-Mage-Prototype", "Assembly-CSharp.csproj", "{BE7AB0C4-65D9-EFB9-59BF-3485D83DA27D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE7AB0C4-65D9-EFB9-59BF-3485D83DA27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7AB0C4-65D9-EFB9-59BF-3485D83DA27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7AB0C4-65D9-EFB9-59BF-3485D83DA27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7AB0C4-65D9-EFB9-59BF-3485D83DA27D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
